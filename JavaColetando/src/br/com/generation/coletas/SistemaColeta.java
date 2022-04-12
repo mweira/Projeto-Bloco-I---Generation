@@ -68,20 +68,24 @@ public class SistemaColeta {
 				rua = leitura.nextLine();
 				
 		
-		if (grupo1.contains(rua)) {
-			 System.out.println("A sua rua faz parte do Grupo 1 e a coleta ocorre ás segundas e quintas-feiras.");
-			 controler = false;
-		}
+				if (grupo1.contains(rua)) {
+		             System.out.println("A sua rua faz parte do Grupo 1 e a coleta ocorre ás segundas e quintas-feiras.");
+		             System.out.println("Seu grupo também possui um ponto de coleta fixa, na rua Líbano, nº 157, com funcionamento de segunda a sexta das 8:00 hrs às 17:00 hrs");
+		             controler = false;
+		        }
+
+		        else if (grupo2.contains(rua)) {
+		             System.out.println("A sua rua faz parte do Grupo 2 e a coleta ocorre ás terças e sextas-feiras.");
+		             System.out.println("Seu grupo também possui um ponto de coleta fixa, na rua Pompéia, nº 171, com funcionamento de segunda a sexta das 8:00 hrs às 17:00 hrs");
+		             controler = false;
+		        }
+
+		        else if (grupo3.contains(rua)) {
+		             System.out.println("A sua rua faz parte do Grupo 3 e a coleta ocorre ás quartas-feiras e ao sábados.");
+		             System.out.println("Seu grupo também possui um ponto de coleta fixa, na rua dos Maronitas, nº 155, com funcionamento de segunda a sexta das 8:00 hrs às 17:00 hrs");
+		             controler = false;
+		        }
 		
-		else if (grupo2.contains(rua)) {
-			 System.out.println("A sua rua faz parte do Grupo 2 e a coleta ocorre ás terÃ§as e sextas-feiras.");
-			 controler = false;
-		}
-		
-		else if (grupo3.contains(rua)) {
-			 System.out.println("A sua rua faz parte do Grupo 3 e a coleta ocorre ás quartas-feiras e ao sÃ¡bados.");
-			 controler = false;
-		}
 		else {
 			 cont+=1;
 			 if (cont < 3) {
@@ -93,9 +97,6 @@ public class SistemaColeta {
 			 
 		}
 		
-		System.out.println("");
-		System.out.println("Também temos pontos de coleta fixos, nas ruas Líbano, Pompeia e Maronitas.");
-		System.out.println("Horário de funcionamento: de Segunda a Sexta das 8h as 18h");
 		 }
 		
 		if (cont > 2) {
