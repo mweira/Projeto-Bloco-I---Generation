@@ -1,4 +1,4 @@
-package br.com.generation.cadastro;
+package br.com.generation.coletas;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -53,10 +53,10 @@ public class SistemaColeta {
 		grupo3.add("toledana");
 		
 		
-			System.out.println("Favor escrever o nome da Rua de acordo com a condi√ß√£o a seguir: ");
+			System.out.println("Favor escrever o nome da Rua de acordo com a condiÁ„o a seguir: ");
 			System.out.println("");
 			System.out.println("Escreva somente o nome da Rua, sem ser acomapanhado pelo prefixo 'Rua'.");
-			System.out.println("Escreva o nome da Rua em letras min√∫sculas e sem acentos.");
+			System.out.println("Escreva o nome da Rua em letras min˙sculas e sem acentos.");
 			System.out.println();
 		   System.out.println("---- Exemplo: ");
 		   System.out.println("Digite o nome da rua: libano");
@@ -69,23 +69,23 @@ public class SistemaColeta {
 				
 		
 		if (grupo1.contains(rua)) {
-			 System.out.println("A sua rua faz parte do Grupo 1 e a coleta ocorre √°s segundas e quintas-feiras.");
+			 System.out.println("A sua rua faz parte do Grupo 1 e a coleta ocorre ·s segundas e quintas-feiras.");
 			 controler = false;
 		}
 		
 		else if (grupo2.contains(rua)) {
-			 System.out.println("A sua rua faz parte do Grupo 2 e a coleta ocorre √°s ter√ßas e sextas-feiras.");
+			 System.out.println("A sua rua faz parte do Grupo 2 e a coleta ocorre ·s ter√ßas e sextas-feiras.");
 			 controler = false;
 		}
 		
 		else if (grupo3.contains(rua)) {
-			 System.out.println("A sua rua faz parte do Grupo 3 e a coleta ocorre √°s quartas-feiras e ao s√°bados.");
+			 System.out.println("A sua rua faz parte do Grupo 3 e a coleta ocorre ·s quartas-feiras e ao s√°bados.");
 			 controler = false;
 		}
 		else {
 			 cont+=1;
 			 if (cont < 3) {
-			 System.out.println("OPS! Houve um errro de digita√ß√£o.");
+			 System.out.println("OPS! Houve um errro de digitaÁ„o.");
 			 System.out.println("Tente Novamente!");
 			 System.out.println();
 			 }
@@ -94,15 +94,15 @@ public class SistemaColeta {
 		}
 		
 		System.out.println("");
-		System.out.println("Tamb√©m temos pontos de coleta fixos, nas ruas L√≠bano, Pompeia e Maronitas.");
-		System.out.println("Hor√°rio de funcionamento: de Segunda a Sexta das 8h as 18h");
+		System.out.println("TambÈm temos pontos de coleta fixos, nas ruas LÌbano, Pompeia e Maronitas.");
+		System.out.println("Hor·rio de funcionamento: de Segunda a Sexta das 8h as 18h");
 		 }
 		
 		if (cont > 2) {
-			 System.out.println("No momento ainda n√£o atendemos a sua regi√£o, mas fique de olho em breve estaremos expandindo nossa cobertura.");
+			 System.out.println("No momento ainda n„o atendemos a sua regi„o, mas fique de olho em breve estaremos expandindo nossa cobertura.");
 			 
 		}
 		
 	}
 		
-	}
+}

@@ -1,4 +1,4 @@
-package br.com.generation.cadastro;
+package br.com.generation.coletas;
 
 public class Telas {
 	
@@ -25,3 +25,4 @@ public class Telas {
 		
 	}
 }
+
