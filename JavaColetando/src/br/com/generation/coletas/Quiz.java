@@ -51,7 +51,7 @@ public class Quiz {
         System.out.println("======================================== QUIZ JAVA COLETANDO ======================================================================");
         System.out.println();
         System.out.println("==================================================================================================================================");
-        System.out.println("BEM VINDE AO NOSSO QUIZ, SERÃO TRÊS PERGUNTAS PARA VOCÊ TER A CHANCE DE ACUMULAR MAIS PONTOS!!\nDIGITE ENTER PARA COMEÃ‡AR... ");
+        System.out.println("BEM VINDE AO NOSSO QUIZ, SERÃO TRÊS PERGUNTAS PARA VOCÊ TER A CHANCE DE ACUMULAR MAIS PONTOS!!\nDIGITE ENTER PARA COMEÇAR... ");
         System.out.println("====================================================================================================================================");
         resposta = entrada.nextLine();
 
