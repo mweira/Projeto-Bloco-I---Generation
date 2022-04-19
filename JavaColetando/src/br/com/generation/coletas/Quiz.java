@@ -1,5 +1,6 @@
 package br.com.generation.coletas;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Quiz {
@@ -203,8 +204,16 @@ public class Quiz {
             System.out.println("Você atingiu uma pontuação baixa! NÃo fique triste! Você receberá 30% de desconto na sua próxima compra de gás!!");
             this.opcao = 3;
         }
+        Random voucher = new Random();
+
+		   
+		   for (int i=0; i<1; i++) {
+			   System.out.println("O número do seu voucher de desconto é: " + voucher.nextInt(999999999));
+		   }
+        
         System.exit(0);
 
+        
     }
 
 }
